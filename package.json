@@ -2,12 +2,11 @@
   "name": "hsm_backend",
   "version": "1.0.0",
   "description": "Hospital management system backend ",
-  "main": "app.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "build": "vite build",
-    "postinstall": "npm install --omit=dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pradhumn Chandrawat",
